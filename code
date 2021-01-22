@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int i,p;
+        cin>>i>>p;
+        if(11-i >= p)
+        {
+            cout<<i+p<<endl;
+        }
+        else
+        {
+            cout<<p-(11-i)-1<<endl;
+        }
+    }
+	return 0;
+}
